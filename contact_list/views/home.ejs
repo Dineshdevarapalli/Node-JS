@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>
+    <%= locals.title %>
+  </title>
+</head>
+<!-- <style>
+  body{
+    background-color: blue;
+  }
+</style> -->
+<body>
+  <h1>Contact List</h1>
+  <div>
+    <ul>
+      <% for(let i of contactList) { %>
+        <li>
+          <p><%= i.name %></p>
+          <p><%= i.phone %></p>
+        </li>
+    <%  } %>
+    </ul>
+  </div>
+  
+</body>
+</html>

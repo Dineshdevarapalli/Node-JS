@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <title>
+      <%= title %>
+    </title>
+  </head>
+  <body>
+    <h1>contactList</h1>
+    <ul>
+    <% for(let i of contactList){%>
+      <li>
+      <%= i.name %>
+      <%= i.phone %>
+</li>
+  <%  } %>
+    </ul>
+  </body>
+</html>
